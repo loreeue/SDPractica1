@@ -1,0 +1,56 @@
+body {
+    background-image: url("singer.jpg");
+}
+
+.container{
+    opacity: 0.9;
+    margin: 50px auto;
+    width: 50%;
+    text-align: left;
+    min-height: 50px;
+    background-color: ghostwhite;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #007bff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.location-image, .futureEvents{
+    display:flex;
+    margin-left: 50px;
+}
+
+.details {
+    margin-left: 100px;
+}
+
+.futureEvents{
+    background-color: lightblue;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(30% - 20px);
+    margin-left: 15px;
+}
+
+.details-user{
+    margin-left: 150px;
+    white-space: nowrap;
+}
+.options {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.options a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
